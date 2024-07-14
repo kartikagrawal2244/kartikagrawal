@@ -3,6 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import React from "react";
 
 const Hero = () => {
 
@@ -18,13 +19,13 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hello World <br></br>{" "}
-            <span className="text-[#915EFF]">I'm Kartik Agrawal</span>
+            Hello World <br></br>
+            <span className="text-[#915EFF]">I&apos;m Kartik Agrawal</span>
           </h1>
 
           <h2 className={`${styles.heroSubText} mt-2 text-white-100`}>
             <span>
-              hello I am{" "}
+              hello I am
               <Typewriter
                 words={["Frontend developer" , "React developer" , "Next Js Developer"]}
                 loop={Infinity}

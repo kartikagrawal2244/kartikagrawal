@@ -85,7 +85,7 @@ const Works = () => {
           <br/>
           These projects represent the culmination of my career thus far.
           They are a testament to my passion for creativity and my dedication to pushing the boundaries of what is possible.
-          I can't wait to see what the future holds and to continue to create work that inspires and challenges me and those around me.
+          I can&apos;t wait to see what the future holds and to continue to create work that inspires and challenges me and those around me.
         </motion.p>
       </div>
 
