@@ -21,7 +21,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-//import material_ui from "./tech/material_ui.png";
+import material_ui from "./tech/material_UI.png";
 import next from "./tech/Next.js.png";
 
 import meta from "./company/DualLogo.png";
@@ -66,7 +66,7 @@ export {
   jobit,
   tripguide,
   resume,
-  //material_ui,
+  material_ui,
   next,
   coder,
   appdevlop,

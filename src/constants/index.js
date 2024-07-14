@@ -12,7 +12,7 @@ import {
   jobit,
   tripguide,
   github,
-  //material_ui,
+  material_ui,
   next,
   typescript,
   coder,
@@ -90,7 +90,7 @@ const technologies = [
   },
   {
     name: "Material Ui",
-    icon: tailwind,
+    icon: material_ui,
   },
   {
     name: "github",
