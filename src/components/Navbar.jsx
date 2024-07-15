@@ -100,7 +100,7 @@ const Navbar = () => {
 
               <li className="flex justify-between items-center">
                 <a href="https://www.facebook.com/kartik.mital.9/" className="me-6" target="_blank" rel="noreferrer"><img src={navIcon2} alt="facebook" /></a>
-                <a href={`${width < 640 ? "https://wa.me/8740954615&text=Hi" : "https://web.whatsapp.com/send?phone=8740954615&text=Hi"}`} target="_blank" rel="noreferrer"><img src={navIcon4} alt="facebook" /></a>
+                <a href={`${width < 640 ? "https://wa.me/8740954615?text=Hi" : "https://web.whatsapp.com/send?phone=8740954615&text=Hi"}`} target="_blank" rel="noreferrer"><img src={navIcon4} alt="facebook" /></a>
               </li>
             </ul>
           </div>
@@ -110,7 +110,7 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/kartik-agrawal-913025189/" className="me-6" target="_blank" rel="noreferrer"><img src={navIcon1} alt="linkedIn" /></a>
           <a href="https://www.instagram.com/kartik.mital/" className="me-6" target="_blank" rel="noreferrer"><img src={navIcon3} alt="instagram" /></a>
           <a href="https://www.facebook.com/kartik.mital.9/" className="me-6" target="_blank" rel="noreferrer"><img src={navIcon2} alt="facebook" /></a>
-          <a href={`${width < 640 ? "https://wa.me/8740954615&text=Hi" : "https://web.whatsapp.com/send?phone=8740954615&text=Hi"}`} target="_blank" rel="noreferrer"><img src={navIcon4} alt="facebook" /></a>
+          <a href={`${width < 640 ? "https://wa.me/8740954615?text=Hi" : "https://web.whatsapp.com/send?phone=8740954615&text=Hi"}`} target="_blank" rel="noreferrer"><img src={navIcon4} alt="facebook" /></a>
         </div>
       </div>
     </nav>
