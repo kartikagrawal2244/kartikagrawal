@@ -74,7 +74,6 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
 
-
           <div
             className={`${!toggle ? "hidden" : "flex"
               } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
@@ -93,12 +92,22 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+
+              <li className="flex justify-between items-center">
+                <a href="https://www.linkedin.com/in/kartik-agrawal-913025189/" className="me-6" target="_blank" rel="noreferrer"><img src={navIcon1} alt="linkedIn" /></a>
+                <a href="https://www.instagram.com/kartik.mital/" className="me-6" target="_blank" rel="noreferrer"><img src={navIcon3} alt="instagram" /></a>
+              </li>
+
+              <li className="flex justify-between items-center">
+                <a href="https://www.facebook.com/kartik.mital.9/" className="me-6" target="_blank" rel="noreferrer"><img src={navIcon2} alt="facebook" /></a>
+                <a href={`${width < 640 ? "https://wa.me/8740954615&text=Hi" : "https://web.whatsapp.com/send?phone=8740954615&text=Hi"}`} target="_blank" rel="noreferrer"><img src={navIcon4} alt="facebook" /></a>
+              </li>
             </ul>
           </div>
         </div>
 
-        <div className="sm:flex justify-between items-center order-1 sm:order-2">
-          <a href="https://www.linkedin.com/in/kartik-agrawal-913025189/" className="me-6" target="_blank" rel="noreferrer"><img src={navIcon1} alt="linkedIn"/></a>
+        <div className="sm:flex hidden justify-between items-center order-1 sm:order-2">
+          <a href="https://www.linkedin.com/in/kartik-agrawal-913025189/" className="me-6" target="_blank" rel="noreferrer"><img src={navIcon1} alt="linkedIn" /></a>
           <a href="https://www.instagram.com/kartik.mital/" className="me-6" target="_blank" rel="noreferrer"><img src={navIcon3} alt="instagram" /></a>
           <a href="https://www.facebook.com/kartik.mital.9/" className="me-6" target="_blank" rel="noreferrer"><img src={navIcon2} alt="facebook" /></a>
           <a href={`${width < 640 ? "https://wa.me/8740954615&text=Hi" : "https://web.whatsapp.com/send?phone=8740954615&text=Hi"}`} target="_blank" rel="noreferrer"><img src={navIcon4} alt="facebook" /></a>
